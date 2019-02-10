@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "E-Voting">
+
+    <listeners>
+        <listener class-name = "com.exonum.evoting.listeners.TestListener" />
+    </listeners>
+
+    <test name = "Estonian president election test">
+        <classes>
+            <class name= "com.exonum.evoting.tests.EstonianPresidentElectionTest" />
+        </classes>
+    </test>
+
+</suite>
